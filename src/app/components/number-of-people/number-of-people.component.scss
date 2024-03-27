@@ -5,18 +5,18 @@ p {
 }
 
 input {
-  width: 454px;
+  width: 100%;
   height: 46px;
   background-color: #f5f6f6;
   font-size: 20px;
   border: none;
   outline: none;
   text-align: right;
-  padding-right: 10px;
+  // padding-right: 10px;
   background-image: url("/assets/people.png"); /* Atualize o caminho conforme necessário */
   background-position: 10px center; /* Ajusta o ícone para aparecer à esquerda, com um pequeno padding */
   background-repeat: no-repeat; /* Impede que o ícone seja repetido */
-  padding-left: 40px; /* Ajusta o padding para evitar que o texto digitado sobreponha o ícone */
+  // padding-left: 40px; /* Ajusta o padding para evitar que o texto digitado sobreponha o ícone */
 }
 
 input[type="number"]::-webkit-inner-spin-button,

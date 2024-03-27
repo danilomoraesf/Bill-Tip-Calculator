@@ -1,5 +1,5 @@
 .button-component {
-  width: 144px;
+  width: 100%;
   height: 46px;
   border-radius: 12px;
   background-color: #00494d;
@@ -15,18 +15,16 @@ p {
   font-size: 20px;
 }
 
-.button-component-custom {
-  width: 144px;
-  height: 46px;
-  border-radius: 12px;
-  border: none;
-  font-weight: 700;
-  font-size: 20px;
-  color: #757575;
+.buttons-tip {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
 }
 
 .buttons-tip-line {
   display: flex;
-  justify-content: space-between;
-  padding-bottom: 10px;
+  // justify-content: space-between;
+  // padding-bottom: 10px;
+  gap: 10px;
 }
