@@ -1,0 +1,30 @@
+input {
+  width: 454px;
+  height: 46px;
+  background-color: #f5f6f6;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  text-align: right;
+  padding-right: 10px;
+  background-image: url("/assets/dollar.png"); /* Atualize o caminho conforme necessário */
+  background-position: 10px center; /* Ajusta o ícone para aparecer à esquerda, com um pequeno padding */
+  background-repeat: no-repeat; /* Impede que o ícone seja repetido */
+  padding-left: 40px; /* Ajusta o padding para evitar que o texto digitado sobreponha o ícone */
+}
+
+p {
+  color: #5e7a7d;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,23 @@
+<div class="main">
+  <div class="title"><app-title></app-title></div>
+  <div class="body-container">
+    <div class="content">
+      <app-bill-group
+        (billAmountChange)="onBillAmountChange($event)"
+        [billAmount]="billAmount"
+      ></app-bill-group>
+      <app-select-tip (tipSelected)="onTipSelected($event)"></app-select-tip>
+      <app-number-of-people
+        (numberOfPeopleChange)="onNumberOfPeopleChange($event)"
+        [numberOfPeople]="numberOfPeople"
+      ></app-number-of-people>
+    </div>
+    <div class="calc-result">
+      <app-account-result
+        [tipAmountPerPerson]="tipAmountPerPerson"
+        [totalPerPerson]="totalPerPerson"
+      ></app-account-result>
+      <app-button-reset (resetRequested)="resetApp()"></app-button-reset>
+    </div>
+  </div>
+</div>

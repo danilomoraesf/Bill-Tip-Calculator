@@ -1,0 +1,32 @@
+.button-component {
+  width: 144px;
+  height: 46px;
+  border-radius: 12px;
+  background-color: #00494d;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+}
+
+p {
+  color: #5e7a7d;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.button-component-custom {
+  width: 144px;
+  height: 46px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+  color: #757575;
+}
+
+.buttons-tip-line {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}

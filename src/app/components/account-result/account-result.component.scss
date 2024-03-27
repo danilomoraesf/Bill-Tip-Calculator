@@ -1,0 +1,29 @@
+.tip-result {
+  display: flex;
+  // border: 1px solid red;
+  justify-content: space-between;
+  width: 390px;
+  height: 70px;
+}
+
+.tip-value {
+  display: flex;
+  // border: 1px solid green;
+}
+
+p {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.person {
+  color: #c5e4e7;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.tip-value-font-style {
+  color: #26c0ab;
+  font-size: 36px;
+}
